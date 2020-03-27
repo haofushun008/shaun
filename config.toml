@@ -1,7 +1,7 @@
 baseURL  =  "https://thedoctor.top/shaun/"
 languageCode = "zh-CN"
 DefaultContentLanguage = "zh-CN"
-title  =  "郝同学的笔记"
+title  =  "郝先森的笔记"
 theme  =  "hello-friend"
 summaryLength = 140
 hasCJKLanguage = true
