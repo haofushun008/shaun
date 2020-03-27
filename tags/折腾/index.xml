@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>折腾 on 郝同学的笔记</title>
+    <link>https://thedoctor.top/shaun/tags/%E6%8A%98%E8%85%BE/</link>
+    <description>Recent content in 折腾 on 郝同学的笔记</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Sat, 21 Mar 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://thedoctor.top/shaun/tags/%E6%8A%98%E8%85%BE/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hello Hugo</title>
+      <link>https://thedoctor.top/shaun/hello-hugo/</link>
+      <pubDate>Sat, 21 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://thedoctor.top/shaun/hello-hugo/</guid>
+      <description>&lt;p&gt;哈喽，🐯🐶！（开机声～）&lt;/p&gt;
+&lt;p&gt;主站顺利切换到 &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>RSSHub 部署笔记</title>
+      <link>https://thedoctor.top/shaun/rsshub-docker/</link>
+      <pubDate>Sat, 21 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://thedoctor.top/shaun/rsshub-docker/</guid>
+      <description>🍰 万物皆可 RSS。 内容来源：https://docs.rsshub.app/install/#an-zhuang-2配合 chrome 扩展更方便：RSSHub Radar ，自定义域名，随时查询规则！ 再配合 《电报 Flowerss Bot》，开启私属 rss 聚合机器人！</description>
+    </item>
+    
+    <item>
+      <title>Telegram 使用小记</title>
+      <link>https://thedoctor.top/shaun/telegram-linmumu/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://thedoctor.top/shaun/telegram-linmumu/</guid>
+      <description>&lt;h3 id=&#34;group&#34;&gt;Group&lt;/h3&gt;
+&lt;p&gt;Bitcron 中文圈： &lt;a href=&#34;https://t.me/bitcron&#34;&gt;https://t.me/bitcron&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

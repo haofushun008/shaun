@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on 郝同学的笔记</title>
+    <link>https://thedoctor.top/shaun/posts/</link>
+    <description>Recent content in Posts on 郝同学的笔记</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Sat, 21 Mar 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://thedoctor.top/shaun/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hello Hugo</title>
+      <link>https://thedoctor.top/shaun/hello-hugo/</link>
+      <pubDate>Sat, 21 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://thedoctor.top/shaun/hello-hugo/</guid>
+      <description>&lt;p&gt;哈喽，🐯🐶！（开机声～）&lt;/p&gt;
+&lt;p&gt;主站顺利切换到 &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>RSSHub 部署笔记</title>
+      <link>https://thedoctor.top/shaun/rsshub-docker/</link>
+      <pubDate>Sat, 21 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://thedoctor.top/shaun/rsshub-docker/</guid>
+      <description>🍰 万物皆可 RSS。 内容来源：https://docs.rsshub.app/install/#an-zhuang-2配合 chrome 扩展更方便：RSSHub Radar ，自定义域名，随时查询规则！ 再配合 《电报 Flowerss Bot》，开启私属 rss 聚合机器人！</description>
+    </item>
+    
+    <item>
+      <title>《医学大神》读中记</title>
+      <link>https://thedoctor.top/shaun/book-isbn-9787613337624/</link>
+      <pubDate>Sat, 14 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://thedoctor.top/shaun/book-isbn-9787613337624/</guid>
+      <description>https://book.douban.com/subject/34935089/ 虽是医学人物传记，但更多的是科学精神！好书增长常识，忍不住记一笔。 🌝</description>
+    </item>
+    
+    <item>
+      <title>Telegram 使用小记</title>
+      <link>https://thedoctor.top/shaun/telegram-linmumu/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://thedoctor.top/shaun/telegram-linmumu/</guid>
+      <description>&lt;h3 id=&#34;group&#34;&gt;Group&lt;/h3&gt;
+&lt;p&gt;Bitcron 中文圈： &lt;a href=&#34;https://t.me/bitcron&#34;&gt;https://t.me/bitcron&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>安静</title>
+      <link>https://thedoctor.top/shaun/bear-and-finding/</link>
+      <pubDate>Fri, 21 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://thedoctor.top/shaun/bear-and-finding/</guid>
+      <description>多少人对自身现状的不安，是归咎于自身的不努力？ 有多少人对自身现状的不安，是由于归咎于自身的不努力？</description>
+    </item>
+    
+  </channel>
+</rss>

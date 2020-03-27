@@ -1,2 +1,0 @@
-# shaun
-working and learning 
