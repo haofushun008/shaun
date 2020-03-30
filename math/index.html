@@ -1,0 +1,838 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    
+      <title>Markdown数学公式 :: 郝先森的笔记</title>
+    
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta name="description" content="因为要使用markdown编辑数学公式然后在文档、网页中使用，但是自己总是记不住这么多东西，特别是几天不用，很多都忘记了，因此准备就数学公式的Latex编辑方式做一个整理，以方便自己和读者今后使用。
+"/>
+<meta name="keywords" content=""/>
+<meta name="referrer" content="never" />
+<link rel="canonical" href="https://thedoctor.top/shaun/math/" />
+<link rel="stylesheet" href="https://thedoctor.top/shaun/style.css">
+<link rel="shortcut icon" href="https://thedoctor.top/shaun/favicon.ico">
+
+<meta property="og:title" content="Markdown数学公式" />
+<meta property="og:description" content="因为要使用markdown编辑数学公式然后在文档、网页中使用，但是自己总是记不住这么多东西，特别是几天不用，很多都忘记了，因此准备就数学公式的Latex编辑方式做一个整理，以方便自己和读者今后使用。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://thedoctor.top/shaun/math/" />
+<meta property="article:published_time" content="2020-03-29T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-03-29T00:00:00+00:00" />
+
+
+
+    
+  
+  <link rel="prefetch" href="https://thedoctor.top/shaun/hello-hugo/">
+
+  </head>
+  <body class="dark-theme">
+    <div class="container">
+      <header class="header">
+  <span class="header__inner">
+    <a href="https://thedoctor.top/shaun/" class="logo" style="text-decoration: none;">
+  
+    <span class="logo__text">郝先森的笔记</span>
+    <span class="logo__cursor"></span>
+  
+</a>
+
+    <span class="header__right">
+      
+        <nav class="menu hidden">
+  <ul class="menu__inner menu__inner--desktop">
+    
+      
+        
+          <li><a href="/shaun/">首页</a></li>
+        
+      
+        
+          <li><a href="/shaun/books/">阅读</a></li>
+        
+      
+        
+          <li><a href="/shaun/movies/">观影</a></li>
+        
+      
+        
+          <li><a href="/shaun/archives/">归档</a></li>
+        
+      
+        
+          <li><a href="/shaun/about/">关于</a></li>
+        
+      
+    
+
+                <li><a href="/search/"><svg t="1556783211810" class="search-box-icon" class="icon" style="" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2078" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><style type="text/css"></style></defs><path d="M981.39652054 920.86314525L704.56522859 644.0318533a366.65501012 366.65501012 0 1 0-61.73503038 65.64040943L917.55859375 984.40065827z m-856.17925347-493.12920861a284.19142939 284.19142939 0 1 1 283.89101562 284.19142939A284.49184317 284.49184317 0 0 1 125.06706019 427.73393664z" fill="" p-id="2079" data-spm-anchor-id="a313x.7781069.0.i2"></path></svg></a></li>
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="/shaun/">首页</a></li>
+      
+    
+      
+        <li><a href="/shaun/books/">阅读</a></li>
+      
+    
+      
+        <li><a href="/shaun/movies/">观影</a></li>
+      
+    
+      
+        <li><a href="/shaun/archives/">归档</a></li>
+      
+    
+      
+        <li><a href="/shaun/about/">关于</a></li>
+      
+    
+  </ul>
+</nav>
+
+        <span class="menu-trigger hidden">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M0 0h24v24H0z" fill="none"/>
+            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+          </svg>
+        </span>
+      
+      <span class="theme-toggle">
+        <svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+</svg>
+
+      </span>
+    </span>
+  </span>
+</header>
+
+
+      <div class="content">
+        
+  
+  
+  
+  <div class="post">
+    <h2 class="post-title"><a href="https://thedoctor.top/shaun/math/">Markdown数学公式</a></h2>
+    <div class="post-meta">
+      
+        <span class="post-date">
+          2020-03-29 00:00:00
+        </span>
+
+        
+          
+        
+      <span> / <span class="valine-comment-count" data-xid="/shaun/shaun/math/">0</span> 评论 / <span id="/shaun/shaun/math/" class="leancloud_visitors" data-flag-title="Markdown数学公式"><span class="leancloud-visitors-count">0</span> 阅读</span></span>
+        
+    </div>
+
+    
+
+    <div class="post-content">
+      <p>因为要使用markdown编辑数学公式然后在文档、网页中使用，但是自己总是记不住这么多东西，特别是几天不用，很多都忘记了，因此准备就数学公式的Latex编辑方式做一个整理，以方便自己和读者今后使用。</p>
+<h4 id="10--特殊字符">1.0  特殊字符</h4>
+<table>
+<thead>
+<tr>
+<th align="center">特殊字符</th>
+<th align="center">说 明</th>
+<th align="center">实例</th>
+<th align="center">完整字符串</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">$</td>
+<td align="center">数学公式前后加<strong>$</strong>是行内公式</td>
+<td align="center">数学公式:$a=x+y$</td>
+<td align="center">数学公式:$a=x+y$</td>
+</tr>
+<tr>
+<td align="center">$$</td>
+<td align="center">数学公式加$$就是读占一行的公式</td>
+<td align="center">独占一行:$$a=x+y$$</td>
+<td align="center">独占一行:$$a=x+y$$</td>
+</tr>
+<tr>
+<td align="center">\</td>
+<td align="center">转义字符,特殊字符要显示原意,就在前面加\</td>
+<td align="center">$</td>
+<td align="center">$ \ $$</td>
+</tr>
+<tr>
+<td align="center">\\</td>
+<td align="center">换行</td>
+<td align="center">$a=x+y\b=y$</td>
+<td align="center">$a=x+y\b=y$</td>
+</tr>
+<tr>
+<td align="center">^</td>
+<td align="center">后跟内容为上标</td>
+<td align="center">$a^i$</td>
+<td align="center">$a^i$</td>
+</tr>
+<tr>
+<td align="center">\left \right</td>
+<td align="center">用于自适应匹配分隔符如{,(,|等</td>
+<td align="center">$\left \frac{du}{dx} \right​</td>
+<td align="center">$\left \frac{du}{dx} \right</td>
+</tr>
+<tr>
+<td align="center">\limits</td>
+<td align="center">强制上下限在上下侧</td>
+<td align="center">$\sum\limits_{k=1}^nkx $</td>
+<td align="center">$\sum\limits_{k=1}^nkx $</td>
+</tr>
+<tr>
+<td align="center">\sum</td>
+<td align="center">求和</td>
+<td align="center">$\sum_{k=1}^nkx $</td>
+<td align="center">$\sum_{k=1}^nkx $</td>
+</tr>
+<tr>
+<td align="center">\int</td>
+<td align="center">积分</td>
+<td align="center">$\int_a^b$</td>
+<td align="center">$\int_a^b$</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center">特殊字符</th>
+<th align="center">说 明</th>
+<th>实例</th>
+<th>完整字符串</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">\nolimits</td>
+<td align="center">强制上下限在右侧</td>
+<td>$\sum\nolimits_{k=1}^nkx$</td>
+<td>$\sum\nolimits_{k=1}^nkx$</td>
+</tr>
+<tr>
+<td align="center">\overline</td>
+<td align="center">上划线</td>
+<td>$\overline{a+b}$</td>
+<td>$\overline{a+b}$</td>
+</tr>
+<tr>
+<td align="center">\underline</td>
+<td align="center">下划线</td>
+<td>$\underline{a+b}$</td>
+<td>$\underline{a+b}$</td>
+</tr>
+<tr>
+<td align="center">\overbrace</td>
+<td align="center">上花括号</td>
+<td>$\overbrace{a+b+\dots+n}^{m个}$</td>
+<td>$\overbrace{a+b+\dots+n}^{m个}$</td>
+</tr>
+<tr>
+<td align="center">\underbrace</td>
+<td align="center">下花括号</td>
+<td>$\underbrace{a+b+\dots+n}_{m个}$</td>
+<td>$\underbrace{a+b+\dots+n}_{m个}$</td>
+</tr>
+</tbody>
+</table>
+<h4 id="11--分数"><strong>1.1  分数</strong></h4>
+<table>
+<thead>
+<tr>
+<th align="center">算式</th>
+<th align="center">markdown</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">$$\frac{7x+5}{1+y^2}$$</td>
+<td align="center">\frac{7x+5}{1+y^2}\</td>
+</tr>
+</tbody>
+</table>
+<h4 id="12--下标"><strong>1.2  下标</strong></h4>
+<table>
+<thead>
+<tr>
+<th align="center">算式</th>
+<th align="center">markdown</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">$$z=z_l$$</td>
+<td align="center">z=z_l</td>
+</tr>
+</tbody>
+</table>
+<h4 id="13--省略号"><strong>1.3  省略号</strong></h4>
+<table>
+<thead>
+<tr>
+<th align="center">算式</th>
+<th align="center">markdown</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">⋯⋯</td>
+<td align="center">\cdots</td>
+</tr>
+</tbody>
+</table>
+<h4 id="14--行间公式"><strong>1.4  行间公式</strong></h4>
+<table>
+<thead>
+<tr>
+<th align="center">算式</th>
+<th align="center">markdown</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">$\frac{d}{dx}e^{ax}=ae^{ax}\quad\sum_{i=1}^{n}{(X_i - \overline{X})^2}$</td>
+<td align="center">\frac{d}{dx}e^{ax}=ae^{ax}\quad\sum_{i=1}^{n}{(X_i - \overline{X})^2}</td>
+</tr>
+</tbody>
+</table>
+<h4 id="15--开根号"><strong>1.5  开根号</strong></h4>
+<table>
+<thead>
+<tr>
+<th align="center">算式</th>
+<th align="center">markdown</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">$\sqrt{2};\sqrt[n]{3}$</td>
+<td align="center">\sqrt{2};\sqrt[n]{3}</td>
+</tr>
+</tbody>
+</table>
+<h4 id="16--矢量"><strong>1.6  矢量</strong></h4>
+<table>
+<thead>
+<tr>
+<th align="center">算式</th>
+<th align="center">markdown</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">$\vec{a} \cdot \vec{b}=0$</td>
+<td align="center">\vec{a} \cdot \vec{b}=0</td>
+</tr>
+</tbody>
+</table>
+<h4 id="17--积分"><strong>1.7  积分</strong></h4>
+<table>
+<thead>
+<tr>
+<th align="center">算式</th>
+<th align="center">markdown</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">$\int ^2_3 x^2 {\rm d}x$</td>
+<td align="center">\int ^2_3 x^2 {\rm d}x</td>
+</tr>
+</tbody>
+</table>
+<h4 id="18--极限"><strong>1.8  极限</strong></h4>
+<table>
+<thead>
+<tr>
+<th align="center">算式</th>
+<th align="center">markdown</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">$\lim_{n\rightarrow+\infty} n$</td>
+<td align="center">\lim_{n\rightarrow+\infty} n</td>
+</tr>
+</tbody>
+</table>
+<h4 id="19--累加"><strong>1.9  累加</strong></h4>
+<table>
+<thead>
+<tr>
+<th align="center">算式</th>
+<th align="center">markdown</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">$\sum \frac{1}{i^2}$</td>
+<td align="center">\sum \frac{1}{i^2}</td>
+</tr>
+</tbody>
+</table>
+<h4 id="110--累乘"><strong>1.10  累乘</strong></h4>
+<table>
+<thead>
+<tr>
+<th align="center">算式</th>
+<th align="center">markdown</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">$\prod \frac{1}{i^2}$</td>
+<td align="center">\prod \frac{1}{i^2}</td>
+</tr>
+</tbody>
+</table>
+<h4 id="111--希腊字母"><strong>1.11  希腊字母</strong></h4>
+<table>
+<thead>
+<tr>
+<th align="center">大写</th>
+<th align="center">markdown</th>
+<th align="center">小写</th>
+<th align="center">markdown</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">$A$</td>
+<td align="center">A</td>
+<td align="center">$\alpha$</td>
+<td align="center">\alpha</td>
+</tr>
+<tr>
+<td align="center">$B$</td>
+<td align="center">B</td>
+<td align="center">$\beta$</td>
+<td align="center">\beta</td>
+</tr>
+<tr>
+<td align="center">$\Gamma$</td>
+<td align="center">\Gamma</td>
+<td align="center">$\gamma$</td>
+<td align="center">\gamma</td>
+</tr>
+<tr>
+<td align="center">$\Delta$</td>
+<td align="center">\Delta</td>
+<td align="center">$\delta$</td>
+<td align="center">\delta</td>
+</tr>
+<tr>
+<td align="center">$E$</td>
+<td align="center">E</td>
+<td align="center">$\epsilon$</td>
+<td align="center">\epsilon</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center">$\varepsilon$</td>
+<td align="center">\varepsilon</td>
+</tr>
+<tr>
+<td align="center">$Z$</td>
+<td align="center">Z</td>
+<td align="center">$\zeta$</td>
+<td align="center">\zeta</td>
+</tr>
+<tr>
+<td align="center">$H$</td>
+<td align="center">H</td>
+<td align="center">$\eta$</td>
+<td align="center">\eta</td>
+</tr>
+<tr>
+<td align="center">$\Theta$</td>
+<td align="center">\Theta</td>
+<td align="center">$\theta$</td>
+<td align="center">\theta</td>
+</tr>
+<tr>
+<td align="center">$I$</td>
+<td align="center">I</td>
+<td align="center">$\iota$</td>
+<td align="center">\iota</td>
+</tr>
+<tr>
+<td align="center">$K$</td>
+<td align="center">K</td>
+<td align="center">$\kappa$</td>
+<td align="center">\kappa</td>
+</tr>
+<tr>
+<td align="center">$\Lambda$</td>
+<td align="center">\Lambda</td>
+<td align="center">$\lambda$</td>
+<td align="center">\lambda</td>
+</tr>
+<tr>
+<td align="center">$M$</td>
+<td align="center">M</td>
+<td align="center">$\mu$</td>
+<td align="center">\mu</td>
+</tr>
+<tr>
+<td align="center">$N$</td>
+<td align="center">N</td>
+<td align="center">$\nu$</td>
+<td align="center">\nu</td>
+</tr>
+<tr>
+<td align="center">$\Xi$</td>
+<td align="center">\Xi</td>
+<td align="center">$\xi$</td>
+<td align="center">\xi</td>
+</tr>
+<tr>
+<td align="center">$O$</td>
+<td align="center">O</td>
+<td align="center">$\omicron$</td>
+<td align="center">\omicron</td>
+</tr>
+<tr>
+<td align="center">$\Pi$</td>
+<td align="center">\Pi</td>
+<td align="center">$\pi$</td>
+<td align="center">\pi</td>
+</tr>
+<tr>
+<td align="center">$P$</td>
+<td align="center">P</td>
+<td align="center">$\rho$</td>
+<td align="center">\rho</td>
+</tr>
+<tr>
+<td align="center">$\Sigma$</td>
+<td align="center">\Sigma</td>
+<td align="center">$\sigma$</td>
+<td align="center">\sigma</td>
+</tr>
+<tr>
+<td align="center">$T$</td>
+<td align="center">T</td>
+<td align="center">$\tau$</td>
+<td align="center">\tau</td>
+</tr>
+<tr>
+<td align="center">$Υ$</td>
+<td align="center">\Upsilon</td>
+<td align="center">$\upsilon$</td>
+<td align="center">\upsilon</td>
+</tr>
+<tr>
+<td align="center">$\Phi$</td>
+<td align="center">\Phi</td>
+<td align="center">$\phi$</td>
+<td align="center">\phi</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center">$\varphi$</td>
+<td align="center">\varphi</td>
+</tr>
+<tr>
+<td align="center">$X$</td>
+<td align="center">X</td>
+<td align="center">$\chi$</td>
+<td align="center">\chi</td>
+</tr>
+<tr>
+<td align="center">$\Psi$</td>
+<td align="center">\Psi</td>
+<td align="center">$\psi$</td>
+<td align="center">\psi</td>
+</tr>
+<tr>
+<td align="center">$\Omega$</td>
+<td align="center">\Omega</td>
+<td align="center">$\omega$</td>
+<td align="center">\omega</td>
+</tr>
+</tbody>
+</table>
+<h4 id="112-三角函数"><strong>1.12 三角函数</strong></h4>
+<table>
+<thead>
+<tr>
+<th align="center">算式</th>
+<th align="center">markdown</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">$\sin$</td>
+<td align="center">\sin</td>
+</tr>
+<tr>
+<td align="center">$\cos$</td>
+<td align="center">\cos</td>
+</tr>
+<tr>
+<td align="center">$\tan$</td>
+<td align="center">\tan</td>
+</tr>
+</tbody>
+</table>
+<h4 id="113-对数函数"><strong>1.13 对数函数</strong></h4>
+<table>
+<thead>
+<tr>
+<th align="center">算式</th>
+<th align="center">markdown</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">$\ln15$</td>
+<td align="center">\ln15</td>
+</tr>
+<tr>
+<td align="center">$\log_2 10$</td>
+<td align="center">\log_2 10</td>
+</tr>
+<tr>
+<td align="center">$\lg7$</td>
+<td align="center">\lg7</td>
+</tr>
+</tbody>
+</table>
+<h4 id="114-关系运算符"><strong>1.14 关系运算符</strong></h4>
+<table>
+<thead>
+<tr>
+<th align="center">运算符</th>
+<th align="center">markdown</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">$\pm$</td>
+<td align="center">\pm</td>
+</tr>
+<tr>
+<td align="center">$\times$</td>
+<td align="center">\times</td>
+</tr>
+<tr>
+<td align="center">$\div$</td>
+<td align="center">\div</td>
+</tr>
+<tr>
+<td align="center">$\sum$</td>
+<td align="center">\sum</td>
+</tr>
+<tr>
+<td align="center">$\prod$</td>
+<td align="center">\prod</td>
+</tr>
+<tr>
+<td align="center">$\neq$</td>
+<td align="center">\neq</td>
+</tr>
+<tr>
+<td align="center">$\leq$</td>
+<td align="center">\leq</td>
+</tr>
+<tr>
+<td align="center">$\geq$</td>
+<td align="center">\geq</td>
+</tr>
+</tbody>
+</table>
+<h4 id="115-矩阵显示">1.15 矩阵显示</h4>
+<p>$\left|\begin{array}{lcr}a&amp;b&amp;c\d&amp;e&amp;f\end{array}\right|$</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">$\left|							---左边的竖线
+\begin{array}				---一个array开始
+{lcr}								---l/c/r表示列的对齐方式左/中/右
+a<span style="color:#960050;background-color:#1e0010">&amp;</span>b<span style="color:#960050;background-color:#1e0010">&amp;</span>c\\d<span style="color:#960050;background-color:#1e0010">&amp;</span>e<span style="color:#960050;background-color:#1e0010">&amp;</span>f				---<span style="color:#960050;background-color:#1e0010">&amp;</span>分隔列，\\换行
+\end{array}					---一个array结束
+\right|$						---右边的竖线
+</code></pre></div>
+    </div>
+
+    
+      <div class="tocify">目录：
+
+
+
+
+<ul class="toc-h4"><li><a href="/shaun/math/#10-%e7%89%b9%e6%ae%8a%e5%ad%97%e7%ac%a6">1.0 特殊字符</a></li>
+            <li><a href="/shaun/math/#11-%e5%88%86%e6%95%b0">1.1 分数</a></li>
+            <li><a href="/shaun/math/#12-%e4%b8%8b%e6%a0%87">1.2 下标</a></li>
+            <li><a href="/shaun/math/#13-%e7%9c%81%e7%95%a5%e5%8f%b7">1.3 省略号</a></li>
+            <li><a href="/shaun/math/#14-%e8%a1%8c%e9%97%b4%e5%85%ac%e5%bc%8f">1.4 行间公式</a></li>
+            <li><a href="/shaun/math/#15-%e5%bc%80%e6%a0%b9%e5%8f%b7">1.5 开根号</a></li>
+            <li><a href="/shaun/math/#16-%e7%9f%a2%e9%87%8f">1.6 矢量</a></li>
+            <li><a href="/shaun/math/#17-%e7%a7%af%e5%88%86">1.7 积分</a></li>
+            <li><a href="/shaun/math/#18-%e6%9e%81%e9%99%90">1.8 极限</a></li>
+            <li><a href="/shaun/math/#19-%e7%b4%af%e5%8a%a0">1.9 累加</a></li>
+            <li><a href="/shaun/math/#110-%e7%b4%af%e4%b9%98">1.10 累乘</a></li>
+            <li><a href="/shaun/math/#111-%e5%b8%8c%e8%85%8a%e5%ad%97%e6%af%8d">1.11 希腊字母</a></li>
+            <li><a href="/shaun/math/#112-%e4%b8%89%e8%a7%92%e5%87%bd%e6%95%b0">1.12 三角函数</a></li>
+            <li><a href="/shaun/math/#113-%e5%af%b9%e6%95%b0%e5%87%bd%e6%95%b0">1.13 对数函数</a></li>
+            <li><a href="/shaun/math/#114-%e5%85%b3%e7%b3%bb%e8%bf%90%e7%ae%97%e7%ac%a6">1.14 关系运算符</a></li>
+            <li><a href="/shaun/math/#115-%e7%9f%a9%e9%98%b5%e6%98%be%e7%a4%ba">1.15 矩阵显示</a></li>
+            </div>
+    
+
+    
+      <span class="post-tags">
+        
+          #<a href="https://thedoctor.top/shaun/tags/md%E8%AF%AD%E6%B3%95/">md语法</a>&nbsp;
+        
+      </span>
+    
+
+    <div class="clear"></div>
+    
+    
+      
+        <div class="pagination">
+          <div class="pagination__title">
+            <span class="pagination__title-h">阅读更多</span>
+            <hr />
+          </div>
+          <div class="pagination__buttons">
+            
+            
+              <span class="button next">
+                <a href="https://thedoctor.top/shaun/hello-hugo/">
+                  <span class="button__text">Hello Hugo</span>
+                  <span class="button__icon">→</span>
+                </a>
+              </span>
+            
+          </div>
+        </div>
+      
+    
+
+
+    
+          <div class="pagination__title">
+       <span class="pagination__title-h"><span class="valine-comment-count" data-xid="/shaun/math/"></span> 条评论</span>
+       <hr />
+  </div>
+  <div id="comments"></div>
+  <script>
+    loadComments();
+    function loadComments() {
+        if (typeof Valine === 'undefined') {
+            var getScript = (options) => {
+                var script = document.createElement('script');
+                script.defer = true;
+                script.crossOrigin = 'anonymous';
+                Object.keys(options).forEach((key) => {
+                    script[key] = options[key];
+                });
+                document.body.appendChild(script);
+            };
+            getScript({
+                src: 'https://cdn.jsdelivr.net/npm/valine@1.3.10/dist/Valine.Pure.min.js',
+                onload: () => {
+                    newValine();
+                }
+            });
+        } else {
+            newValine();
+        }
+    }
+    function newValine() {
+      new Valine({
+        el: '#comments' ,
+        recordIP : true,
+        appId: 'BtryxJMOsbELrmzfhMvbR7oK-gzGzoHsz',
+        appKey: '31FJh6NXhhvcRkYxBWmCi1M9',
+        placeholder: '既然来了，那就留个痕迹吧~',
+        visitor:  true 
+      });
+      function diyValine() {
+        document.querySelector("span.vemoji-btn").innerHTML = '😀';
+        jinrishici.load(function(result) {
+            var jrsc_plac =  result.data.content + "\n「" + result.data.origin.title + "」" + result.data.origin.dynasty + " · " + result.data.origin.author
+            document.getElementById("veditor").setAttribute("placeholder",jrsc_plac);
+        });
+      }
+      setTimeout(diyValine, 1000);
+    }
+  </script>
+  <script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js"></script>
+  <script type="text/javascript" src='https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js'></script>
+  <script type="text/javascript">
+    jQuery(document).ready(function($){
+        $("#comments").on('click', 'span.vat',function(){
+        	$(this).parent('div.vmeta').next("div.vcontent").after($("div.vwrap"));
+        	$('textarea#veditor').focus();
+        })
+        if(window.location.hash){
+        	var checkExist = setInterval(function() {
+        		if ($(window.location.hash).length) {
+                $('html, body').animate({scrollTop: $(window.location.hash).offset().top-90}, 1000);
+                            clearInterval(checkExist);
+                        }
+                }, 100);
+        }
+    });
+  </script>
+
+    
+
+    </div>
+
+      </div>
+
+      
+        <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright">
+        <span>© 2020</span>
+      
+      
+<script src="https://cdn.bootcss.com/jquery/3.3.0/jquery.min.js"></script>
+<script id="ilt" src="https://avvt.cn/player/js/player.js" key="d716cd4be3c44675a5de13bf3de3fe3d"></script>
+      
+      	<center>
+      <p style="font-size:13px">
+      <a><script type="text/javascript">document.write(unescape("%3Cspan id='cnzz_stat_icon_1278674641'%3E%3C/span%3E%3Cscript src='https://s9.cnzz.com/z_stat.php%3Fid%3D1278674641%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script></a>
+      &nbsp;
+      <img src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=1792806737,1132565011&fm=26&gp=0.jpg" width=1.5% height=1.5% border="0" alt="公安备案" title="公安备案">
+      <a href="http://beian.miit.gov.cn/" target="_blank">鲁ICP备20009096号</a>
+      </p>
+    </center>
+      </div>
+    
+  </div>
+</footer>
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/haofushun008/shaun@gh-pages/main.js"></script>
+
+<script type="text/javascript" src='https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js'></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/haofushun008/shaun@gh-pages/lately.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/haofushun008/shaun@gh-pages/waterfall.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/haofushun008/shaun@gh-pages/slimbox2.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/haofushun008/shaun@gh-pages/func.js"></script>
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/instant.page@3.0.0/instantpage.min.js" type="module"></script>
+
+      
+    </div>
+  </body>
+</html>

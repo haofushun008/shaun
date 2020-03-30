@@ -6,10 +6,19 @@
     <description>Recent content in Posts on 郝先森的笔记</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 21 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 29 Mar 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://thedoctor.top/shaun/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Markdown数学公式</title>
+      <link>https://thedoctor.top/shaun/math/</link>
+      <pubDate>Sun, 29 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://thedoctor.top/shaun/math/</guid>
+      <description>&lt;p&gt;因为要使用markdown编辑数学公式然后在文档、网页中使用，但是自己总是记不住这么多东西，特别是几天不用，很多都忘记了，因此准备就数学公式的Latex编辑方式做一个整理，以方便自己和读者今后使用。&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Hello Hugo</title>
@@ -47,15 +56,6 @@
       <guid>https://thedoctor.top/shaun/telegram-linmumu/</guid>
       <description>&lt;h3 id=&#34;group&#34;&gt;Group&lt;/h3&gt;
 &lt;p&gt;Bitcron 中文圈： &lt;a href=&#34;https://t.me/bitcron&#34;&gt;https://t.me/bitcron&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>安静</title>
-      <link>https://thedoctor.top/shaun/bear-and-finding/</link>
-      <pubDate>Fri, 21 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://thedoctor.top/shaun/bear-and-finding/</guid>
-      <description>多少人对自身现状的不安，是归咎于自身的不努力？ 有多少人对自身现状的不安，是由于归咎于自身的不努力？</description>
     </item>
     
   </channel>
