@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CNN on 郝先森的笔记</title>
+    <link>https://thedoctor.top/shaun/tags/cnn/</link>
+    <description>Recent content in CNN on 郝先森的笔记</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Wed, 01 Apr 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://thedoctor.top/shaun/tags/cnn/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>深入理解神经网络---从逻辑回归到CNN</title>
+      <link>https://thedoctor.top/shaun/zhangjuefei-cnn/</link>
+      <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://thedoctor.top/shaun/zhangjuefei-cnn/</guid>
+      <description>人民邮电出版社-张觉非著 一、逻辑回归 1.1 作为一个神经元的逻辑回归（线性模型） 仿射函数：a = b(偏置) + ∑wi*xi（权重&amp;amp;特征相乘求和） 逻辑回归：Logistics=1/（1+exp(-a)） 【注】逻辑回归是对仿射函数的值施加Logistic函数（也称Sigmoid函数）&amp;</description>
+    </item>
+    
+  </channel>
+</rss>

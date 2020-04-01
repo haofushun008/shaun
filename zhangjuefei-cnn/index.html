@@ -1,33 +1,143 @@
-<?xml version="1.0" encoding="utf-8"?> 
-<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
-    <generator uri="https://gohugo.io/" version="0.68.3">Hugo</generator><title type="html"><![CDATA[郝先森的笔记]]></title>
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
     
+      <title>深入理解神经网络---从逻辑回归到CNN :: 郝先森的笔记</title>
     
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta name="description" content="人民邮电出版社-张觉非著 一、逻辑回归 1.1 作为一个神经元的逻辑回归（线性模型） 仿射函数：a = b(偏置) &#43; ∑wi*xi（权重&amp;amp;特征相乘求和） 逻辑回归：Logistics=1/（1&#43;exp(-a)） 【注】逻辑回归是对仿射函数的值施加Logistic函数（也称Sigmoid函数）&amp;"/>
+<meta name="keywords" content=""/>
+<meta name="referrer" content="never" />
+<link rel="canonical" href="https://thedoctor.top/shaun/zhangjuefei-cnn/" />
+<link rel="stylesheet" href="https://thedoctor.top/shaun/style.css">
+<link rel="shortcut icon" href="https://thedoctor.top/shaun/favicon.ico">
+
+<meta property="og:title" content="深入理解神经网络---从逻辑回归到CNN" />
+<meta property="og:description" content="人民邮电出版社-张觉非著 一、逻辑回归 1.1 作为一个神经元的逻辑回归（线性模型） 仿射函数：a = b(偏置) &#43; ∑wi*xi（权重&amp;特征相乘求和） 逻辑回归：Logistics=1/（1&#43;exp(-a)） 【注】逻辑回归是对仿射函数的值施加Logistic函数（也称Sigmoid函数）&" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://thedoctor.top/shaun/zhangjuefei-cnn/" />
+<meta property="article:published_time" content="2020-04-01T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-04-01T00:00:00+00:00" />
+
+
+
     
-            <link href="https://thedoctor.top/shaun/atom.xml" rel="self" type="application/rss+xml" title="atom" />
-            <link href="https://thedoctor.top/shaun/" rel="alternate" type="text/html" title="HTML" />
-            <link href="https://thedoctor.top/shaun/index.json" rel="alternate" type="application/json" title="JSON" />
-    <updated>2020-04-01T12:22:33+00:00</updated>
+  
+  <link rel="prefetch" href="https://thedoctor.top/shaun/math/">
+
+  </head>
+  <body class="dark-theme">
+    <div class="container">
+      <header class="header">
+  <span class="header__inner">
+    <a href="https://thedoctor.top/shaun/" class="logo" style="text-decoration: none;">
+  
+    <span class="logo__text">郝先森的笔记</span>
+    <span class="logo__cursor"></span>
+  
+</a>
+
+    <span class="header__right">
+      
+        <nav class="menu hidden">
+  <ul class="menu__inner menu__inner--desktop">
     
-    
-    
-    
-        <id>https://thedoctor.top/shaun/atom.xml</id>
-    
+      
         
-        <entry>
-            <title type="html"><![CDATA[深入理解神经网络---从逻辑回归到CNN]]></title>
-            <link href="https://thedoctor.top/shaun/zhangjuefei-cnn/" rel="alternate" type="text/html" />
-            
-            
-                <id>https://thedoctor.top/shaun/zhangjuefei-cnn/</id>
-            
-            
-            <published>2020-04-01T00:00:00+00:00</published>
-            <updated>2020-04-01T00:00:00+00:00</updated>
-            
-            
-            <content type="html"><![CDATA[<p><em>人民邮电出版社-张觉非著</em></p>
+          <li><a href="/shaun/">首页</a></li>
+        
+      
+        
+          <li><a href="/shaun/books/">阅读</a></li>
+        
+      
+        
+          <li><a href="/shaun/movies/">观影</a></li>
+        
+      
+        
+          <li><a href="/shaun/archives/">归档</a></li>
+        
+      
+        
+          <li><a href="/shaun/about/">关于</a></li>
+        
+      
+    
+
+                <li><a href="/search/"><svg t="1556783211810" class="search-box-icon" class="icon" style="" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2078" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><style type="text/css"></style></defs><path d="M981.39652054 920.86314525L704.56522859 644.0318533a366.65501012 366.65501012 0 1 0-61.73503038 65.64040943L917.55859375 984.40065827z m-856.17925347-493.12920861a284.19142939 284.19142939 0 1 1 283.89101562 284.19142939A284.49184317 284.49184317 0 0 1 125.06706019 427.73393664z" fill="" p-id="2079" data-spm-anchor-id="a313x.7781069.0.i2"></path></svg></a></li>
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="/shaun/">首页</a></li>
+      
+    
+      
+        <li><a href="/shaun/books/">阅读</a></li>
+      
+    
+      
+        <li><a href="/shaun/movies/">观影</a></li>
+      
+    
+      
+        <li><a href="/shaun/archives/">归档</a></li>
+      
+    
+      
+        <li><a href="/shaun/about/">关于</a></li>
+      
+    
+  </ul>
+</nav>
+
+        <span class="menu-trigger hidden">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M0 0h24v24H0z" fill="none"/>
+            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+          </svg>
+        </span>
+      
+      <span class="theme-toggle">
+        <svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+</svg>
+
+      </span>
+    </span>
+  </span>
+</header>
+
+
+      <div class="content">
+        
+  
+  
+  
+  <div class="post">
+    <h2 class="post-title"><a href="https://thedoctor.top/shaun/zhangjuefei-cnn/">深入理解神经网络&mdash;从逻辑回归到CNN</a></h2>
+    <div class="post-meta">
+      
+        <span class="post-date">
+          2020-04-01 00:00:00
+        </span>
+
+        
+          
+        
+      <span> / <span class="valine-comment-count" data-xid="/shaun/shaun/zhangjuefei-cnn/">0</span> 评论 / <span id="/shaun/shaun/zhangjuefei-cnn/" class="leancloud_visitors" data-flag-title="深入理解神经网络---从逻辑回归到CNN"><span class="leancloud-visitors-count">0</span> 阅读</span></span>
+        
+    </div>
+
+    
+
+    <div class="post-content">
+      <p><em>人民邮电出版社-张觉非著</em></p>
 <h4 id="一逻辑回归">一、逻辑回归</h4>
 <h5 id="11-作为一个神经元的逻辑回归线性模型">1.1 作为一个神经元的逻辑回归（线性模型）</h5>
 <ul>
@@ -373,223 +483,169 @@
 <blockquote>
 <p>目前来说深度学习是一门学科还是有些站不住脚，因为还没有可以解释深度学习本质的理论框架，这也是深度学习被诟病为炼金术的原因。</p>
 </blockquote>
-]]></content>
-            
-                 
-                    
-                 
-                    
-                         
-                        
-                            
-                             
-                                <category scheme="https://thedoctor.top/shaun/tags/cnn" term="cnn" label="CNN" />
-                            
-                        
-                    
-                
-            
-        </entry>
+
+    </div>
+
     
+      <div class="tocify">目录：
+
+
+
+
+<ul class="toc-h4"><li><a href="/shaun/zhangjuefei-cnn/#%e4%b8%80%e9%80%bb%e8%be%91%e5%9b%9e%e5%bd%92">一、逻辑回归</a></li>
+            <li><a href="/shaun/zhangjuefei-cnn/#%e4%ba%8c%e6%a8%a1%e5%9e%8b%e8%af%84%e4%bb%b7%e4%b8%8e%e6%8d%9f%e5%a4%b1%e5%87%bd%e6%95%b0">二、模型评价与损失函数</a></li>
+            <li><a href="/shaun/zhangjuefei-cnn/#%e4%b8%89%e6%a2%af%e5%ba%a6%e4%b8%8b%e9%99%8d%e6%b3%95">三、梯度下降法</a></li>
+            <li><a href="/shaun/zhangjuefei-cnn/#%e5%9b%9b%e8%b6%85%e8%b6%8a%e6%a2%af%e5%ba%a6%e4%b8%8b%e9%99%8d">四、超越梯度下降</a></li>
+            <li><a href="/shaun/zhangjuefei-cnn/#%e4%ba%94%e6%ad%a3%e5%88%99%e5%8c%96">五、正则化</a></li>
+            <li><a href="/shaun/zhangjuefei-cnn/#%e5%85%ad%e7%a5%9e%e7%bb%8f%e7%bd%91%e7%bb%9c">六、神经网络</a></li>
+            <li><a href="/shaun/zhangjuefei-cnn/#%e4%b8%83%e5%8f%8d%e5%90%91%e4%bc%a0%e6%92%ad">七、反向传播</a></li>
+            <li><a href="/shaun/zhangjuefei-cnn/#%e5%85%ab%e8%ae%a1%e7%ae%97%e5%9b%be">八、计算图</a></li>
+            <li><a href="/shaun/zhangjuefei-cnn/#%e4%b9%9d%e5%8d%b7%e7%a7%af%e7%a5%9e%e7%bb%8f%e7%bd%91%e7%bb%9c">九、卷积神经网络</a></li>
+            <li><a href="/shaun/zhangjuefei-cnn/#%e5%8d%81%e7%bb%8f%e5%85%b8cnn">十、经典CNN</a></li>
+            </div>
+    
+
+    
+      <span class="post-tags">
         
-        <entry>
-            <title type="html"><![CDATA[Markdown数学公式]]></title>
-            <link href="https://thedoctor.top/shaun/math/" rel="alternate" type="text/html" />
-            
-            
-                <id>https://thedoctor.top/shaun/math/</id>
-            
-            
-            <published>2020-03-29T00:00:00+00:00</published>
-            <updated>2020-03-29T00:00:00+00:00</updated>
-            
-            
-            <content type="html"><![CDATA[<blockquote>
-<p>因为要使用markdown编辑数学公式然后在文档、网页中使用，但是自己总是记不住这么多东西，特别是几天不用，很多都忘记了，因此准备就数学公式的Latex编辑方式做一个整理，以方便自己和读者今后使用。</p>
-</blockquote>
-<p><p class="md_image">
-  <img loading='lazy' src="https://pic.thedoctor.top/pic/20200330GdCSR5.png" alt=""  />
-</p>
-<p class="md_image">
-  <img loading='lazy' src="https://pic.thedoctor.top/pic/20200330wIikrV.png" alt="20200330wIikrV"  />
-</p>
-<p class="md_image">
-  <img loading='lazy' src="https://pic.thedoctor.top/pic/20200330pcmLiy.png" alt="20200330pcmLiy"  />
-</p>
-<p class="md_image">
-  <img loading='lazy' src="https://pic.thedoctor.top/pic/20200330jYViyo.png" alt="20200330jYViyo"  />
-</p>
-<p class="md_image">
-  <img loading='lazy' src="https://pic.thedoctor.top/pic/20200330TAmusv.png" alt="20200330TAmusv"  />
-</p>
-<p class="md_image">
-  <img loading='lazy' src="https://pic.thedoctor.top/pic/20200330bqJdQW.png" alt="20200330bqJdQW"  />
-</p></p>
-]]></content>
-            
-                 
-                    
-                 
-                    
-                         
-                        
-                            
-                             
-                                <category scheme="https://thedoctor.top/shaun/tags/md%E8%AF%AD%E6%B3%95" term="md%E8%AF%AD%E6%B3%95" label="md语法" />
-                            
-                        
-                    
-                
-            
-        </entry>
-    
+          #<a href="https://thedoctor.top/shaun/tags/cnn/">CNN</a>&nbsp;
         
-        <entry>
-            <title type="html"><![CDATA[Hello Hugo]]></title>
-            <link href="https://thedoctor.top/shaun/hello-hugo/" rel="alternate" type="text/html" />
-            
-                <link href="https://thedoctor.top/shaun/rsshub-docker/" rel="related" type="text/html" title="RSSHub 部署笔记" />
-                <link href="https://thedoctor.top/shaun/telegram-linmumu/" rel="related" type="text/html" title="Telegram 使用小记" />
-            
-                <id>https://thedoctor.top/shaun/hello-hugo/</id>
-            
-            
-            <published>2020-03-21T00:00:00+00:00</published>
-            <updated>2020-03-21T00:00:00+00:00</updated>
-            
-            
-            <content type="html"><![CDATA[<p>哈喽，🐯🐶！（开机声～）</p>
-<p>主站顺利切换到 <a href="https://gohugo.io/">Hugo</a></p>
-<h3 id="迁移采坑记">迁移采坑记</h3>
-<h4 id="文章摘要失效">文章摘要失效</h4>
-<p>原来文章 <code>more</code> 标签像中间有空格就无效 <code>&lt;!--  more  --&gt;</code> 批量替换成  <code>&lt;!--more--&gt;</code> 解决。</p>
-<h4 id="文章列表排序错乱">文章列表排序错乱</h4>
-<p>原来是文章信息的 <code>date</code> 格式不统一导致无法识别，统一修改为年月日 <code>date: 2020-03-21</code> 解决。</p>
-<h4 id="文章内-html-标签为空">文章内 html 标签为空</h4>
-<p>被替换为 <code>&lt;!-- raw HTML omitted --&gt;</code> ，原来 Hugo 0.60 以上默认禁用了，手动在 <code>config.toml</code> 添加以下代码。</p>
-<pre><code>[markup]
-[markup.goldmark]
-[markup.goldmark.renderer]
-  unsafe = true
-</code></pre><h4 id="增加文章-toc">增加文章 TOC</h4>
-<p>新建 <a href="https://github.com/lmm214/immmmm/blob/master/themes/hello-friend/layouts/partials/toc.html">layouts/partials/toc.html</a> ，修改 <a href="https://github.com/lmm214/immmmm/blob/master/themes/hello-friend/layouts/_default/single.html">layouts/_default/single.html</a> 添加引用代码：</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">    {{ if .Params.toc }}
-      &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;tocify&#34;</span>&gt;目录：{{- partial &#34;toc.html&#34; . -}}&lt;/<span style="color:#f92672">div</span>&gt;
-    {{ end }}
-</code></pre></div><p>在文章 md 头部信息中添加 <code>toc: true</code> 启用。相关 CSS 和 jQuery 代码如下：</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css"><span style="color:#75715e">/* tocify */</span>
-.<span style="color:#a6e22e">tocify</span> {<span style="color:#66d9ef">width</span>: <span style="color:#ae81ff">20</span><span style="color:#66d9ef">%</span>; <span style="color:#66d9ef">max-height</span>: <span style="color:#ae81ff">90</span><span style="color:#66d9ef">%</span>; <span style="color:#66d9ef">overflow</span>: <span style="color:#66d9ef">auto</span>; <span style="color:#66d9ef">margin-left</span>: <span style="color:#ae81ff">2</span><span style="color:#66d9ef">%</span>; <span style="color:#66d9ef">position</span>: <span style="color:#66d9ef">absolute</span>; <span style="color:#66d9ef">right</span>:<span style="color:#ae81ff">2</span><span style="color:#66d9ef">%</span>; <span style="color:#66d9ef">border-radius</span>: <span style="color:#ae81ff">6</span><span style="color:#66d9ef">px</span>;}
-.<span style="color:#a6e22e">tocify</span> <span style="color:#f92672">ul</span><span style="color:#f92672">,</span> .<span style="color:#a6e22e">tocify</span> <span style="color:#f92672">li</span> {<span style="color:#66d9ef">list-style</span>: <span style="color:#66d9ef">none</span>; <span style="color:#66d9ef">margin</span>: <span style="color:#ae81ff">0</span>; <span style="color:#66d9ef">padding</span>: <span style="color:#ae81ff">0</span>; <span style="color:#66d9ef">border</span>: <span style="color:#66d9ef">none</span>; <span style="color:#66d9ef">line-height</span>: <span style="color:#ae81ff">30</span><span style="color:#66d9ef">px</span>; }
-.<span style="color:#a6e22e">tocify</span> <span style="color:#f92672">li</span> <span style="color:#f92672">a</span> {<span style="color:#66d9ef">display</span>: <span style="color:#66d9ef">inline</span><span style="color:#f92672">-</span><span style="color:#66d9ef">block</span>; <span style="color:#66d9ef">text-indent</span>:<span style="color:#ae81ff">10</span><span style="color:#66d9ef">px</span>; <span style="color:#66d9ef">font-size</span>: <span style="color:#ae81ff">14</span><span style="color:#66d9ef">px</span>; <span style="color:#66d9ef">text-decoration</span>: <span style="color:#66d9ef">none</span>; }
-.<span style="color:#a6e22e">tocify</span> <span style="color:#f92672">ul</span> <span style="color:#f92672">ul</span> <span style="color:#f92672">li</span> <span style="color:#f92672">a</span>:<span style="color:#a6e22e">before</span> {<span style="color:#66d9ef">content</span>: <span style="color:#e6db74">&#34;- &#34;</span>}
-@<span style="color:#66d9ef">media</span> <span style="color:#f92672">only</span> <span style="color:#f92672">screen</span> <span style="color:#f92672">and</span> <span style="color:#f92672">(</span><span style="color:#f92672">max-width</span>:<span style="color:#a6e22e">683px</span><span style="color:#f92672">)</span> {
-	.<span style="color:#a6e22e">tocify</span> {<span style="color:#66d9ef">display</span>: <span style="color:#66d9ef">none</span>;}
-}
-</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#75715e">//文章 toc 跟随
-</span><span style="color:#75715e"></span><span style="color:#66d9ef">var</span> <span style="color:#a6e22e">nav</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">$</span>(<span style="color:#e6db74">&#34;.tocify&#34;</span>);
-<span style="color:#a6e22e">nav</span>.<span style="color:#a6e22e">removeClass</span>(<span style="color:#e6db74">&#34;hide&#34;</span>);
-<span style="color:#66d9ef">var</span> <span style="color:#a6e22e">navTop</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">$</span>(<span style="color:#e6db74">&#34;.post-content&#34;</span>).<span style="color:#a6e22e">offset</span>().<span style="color:#a6e22e">top</span>;
-<span style="color:#66d9ef">var</span> <span style="color:#a6e22e">w</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">$</span>(window).<span style="color:#a6e22e">width</span>()<span style="color:#f92672">/</span><span style="color:#ae81ff">2</span> <span style="color:#f92672">+</span> <span style="color:#ae81ff">400</span>;
-<span style="color:#a6e22e">nav</span>.<span style="color:#a6e22e">css</span>(<span style="color:#e6db74">&#34;left&#34;</span>, <span style="color:#a6e22e">w</span>);
-<span style="color:#a6e22e">nav</span>.<span style="color:#a6e22e">css</span>(<span style="color:#e6db74">&#34;top&#34;</span>, <span style="color:#a6e22e">navTop</span>);
-<span style="color:#a6e22e">$</span>(window).<span style="color:#a6e22e">scroll</span>(<span style="color:#66d9ef">function</span>() {
-    <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">scrolls</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">$</span>(<span style="color:#66d9ef">this</span>).<span style="color:#a6e22e">scrollTop</span>();
-    <span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">scrolls</span> <span style="color:#f92672">&gt;</span> <span style="color:#a6e22e">navTop</span>) {
-      <span style="color:#a6e22e">nav</span>.<span style="color:#a6e22e">css</span>({<span style="color:#e6db74">&#34;top&#34;</span><span style="color:#f92672">:</span><span style="color:#ae81ff">0</span>,<span style="color:#e6db74">&#34;position&#34;</span><span style="color:#f92672">:</span><span style="color:#e6db74">&#34;fixed&#34;</span>});
-    } <span style="color:#66d9ef">else</span> {
-      <span style="color:#a6e22e">nav</span>.<span style="color:#a6e22e">css</span>({<span style="color:#e6db74">&#34;top&#34;</span><span style="color:#f92672">:</span><span style="color:#a6e22e">navTop</span>,<span style="color:#e6db74">&#34;position&#34;</span><span style="color:#f92672">:</span><span style="color:#e6db74">&#34;absolute&#34;</span>});
-    };
-});
-</code></pre></div><h4 id="添加豆瓣页面">添加豆瓣页面</h4>
-<p>新建模板 <a href="https://github.com/lmm214/immmmm/blob/master/themes/hello-friend/layouts/_default/books.html">layouts/_default/books.html</a> 、<a href="https://github.com/lmm214/immmmm/blob/master/themes/hello-friend/layouts/_default/movies.html">layouts/_default/movies.html</a> 页面模板，自行修改 <code>secret</code>。</p>
-<p>新建文章 <a href="https://github.com/lmm214/immmmm/blob/master/content/books.md">content/books.md</a>、<a href="https://github.com/lmm214/immmmm/blob/master/content/movies.md">content/movies.md</a> ，当访问 <code>域名/books/</code> 时 Hugo 会匹配 <code>books.html</code> 进行渲染。</p>]]></content>
-            
-                 
-                    
-                 
-                    
-                         
-                        
-                            
-                             
-                                <category scheme="https://thedoctor.top/shaun/tags/%E6%8A%98%E8%85%BE" term="%E6%8A%98%E8%85%BE" label="折腾" />
-                            
-                        
-                    
-                
-            
-        </entry>
+      </span>
     
-        
-        <entry>
-            <title type="html"><![CDATA[RSSHub 部署笔记]]></title>
-            <link href="https://thedoctor.top/shaun/rsshub-docker/" rel="alternate" type="text/html" />
-            
-                <link href="https://thedoctor.top/shaun/hello-hugo/" rel="related" type="text/html" title="Hello Hugo" />
-                <link href="https://thedoctor.top/shaun/telegram-linmumu/" rel="related" type="text/html" title="Telegram 使用小记" />
-            
-                <id>https://thedoctor.top/shaun/rsshub-docker/</id>
-            
-            
-            <published>2020-03-21T00:00:00+00:00</published>
-            <updated>2020-03-21T00:00:00+00:00</updated>
-            
-            
-            <content type="html"><![CDATA[<blockquote>
-<p>🍰 万物皆可 RSS。</p>
-</blockquote>
-<p>内容来源：<a href="https://docs.rsshub.app/install/#an-zhuang-2">https://docs.rsshub.app/install/#an-zhuang-2</a>配合 chrome 扩展更方便：<a href="https://chrome.google.com/webstore/detail/rsshub-radar/kefjpfngnndepjbopdmoebkipbgkggaa">RSSHub Radar</a> ，自定义域名，随时查询规则！</p>
-<p>再配合 <a href="https://immmmm.com/telegram-flowerss-bot/">《电报 Flowerss Bot》</a>，开启私属 rss 聚合机器人！</p>
-]]></content>
-            
-                 
-                    
-                 
-                    
-                         
-                        
-                            
-                             
-                                <category scheme="https://thedoctor.top/shaun/tags/%E6%8A%98%E8%85%BE" term="%E6%8A%98%E8%85%BE" label="折腾" />
-                            
-                        
-                    
-                
-            
-        </entry>
+
+    <div class="clear"></div>
     
-        
-        <entry>
-            <title type="html"><![CDATA[《医学大神》读中记]]></title>
-            <link href="https://thedoctor.top/shaun/book-isbn-9787613337624/" rel="alternate" type="text/html" />
-            
-            
-                <id>https://thedoctor.top/shaun/book-isbn-9787613337624/</id>
-            
-            
-            <published>2020-03-14T00:00:00+00:00</published>
-            <updated>2020-03-14T00:00:00+00:00</updated>
-            
-            
-            <content type="html"><![CDATA[<p><a href="https://book.douban.com/subject/34935089/">https://book.douban.com/subject/34935089/</a></p>
-<p>虽是医学人物传记，但更多的是科学精神！好书增长常识，忍不住记一笔。</p>
-<p>🌝</p>
-]]></content>
-            
-                 
-                    
-                 
-                    
-                         
-                        
-                            
-                             
-                                <category scheme="https://thedoctor.top/shaun/tags/%E8%AF%BB%E4%B9%A6" term="%E8%AF%BB%E4%B9%A6" label="读书" />
-                            
-                        
-                    
-                
-            
-        </entry>
     
-</feed>
+      
+        <div class="pagination">
+          <div class="pagination__title">
+            <span class="pagination__title-h">阅读更多</span>
+            <hr />
+          </div>
+          <div class="pagination__buttons">
+            
+            
+              <span class="button next">
+                <a href="https://thedoctor.top/shaun/math/">
+                  <span class="button__text">Markdown数学公式</span>
+                  <span class="button__icon">→</span>
+                </a>
+              </span>
+            
+          </div>
+        </div>
+      
+    
+
+
+    
+          <div class="pagination__title">
+       <span class="pagination__title-h"><span class="valine-comment-count" data-xid="/shaun/zhangjuefei-cnn/"></span> 条评论</span>
+       <hr />
+  </div>
+  <div id="comments"></div>
+  <script>
+    loadComments();
+    function loadComments() {
+        if (typeof Valine === 'undefined') {
+            var getScript = (options) => {
+                var script = document.createElement('script');
+                script.defer = true;
+                script.crossOrigin = 'anonymous';
+                Object.keys(options).forEach((key) => {
+                    script[key] = options[key];
+                });
+                document.body.appendChild(script);
+            };
+            getScript({
+                src: 'https://cdn.jsdelivr.net/npm/valine@1.3.10/dist/Valine.Pure.min.js',
+                onload: () => {
+                    newValine();
+                }
+            });
+        } else {
+            newValine();
+        }
+    }
+    function newValine() {
+      new Valine({
+        el: '#comments' ,
+        recordIP : true,
+        appId: 'BtryxJMOsbELrmzfhMvbR7oK-gzGzoHsz',
+        appKey: '31FJh6NXhhvcRkYxBWmCi1M9',
+        placeholder: '既然来了，那就留个痕迹吧~',
+        visitor:  true 
+      });
+      function diyValine() {
+        document.querySelector("span.vemoji-btn").innerHTML = '😀';
+        jinrishici.load(function(result) {
+            var jrsc_plac =  result.data.content + "\n「" + result.data.origin.title + "」" + result.data.origin.dynasty + " · " + result.data.origin.author
+            document.getElementById("veditor").setAttribute("placeholder",jrsc_plac);
+        });
+      }
+      setTimeout(diyValine, 1000);
+    }
+  </script>
+  <script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js"></script>
+  <script type="text/javascript" src='https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js'></script>
+  <script type="text/javascript">
+    jQuery(document).ready(function($){
+        $("#comments").on('click', 'span.vat',function(){
+        	$(this).parent('div.vmeta').next("div.vcontent").after($("div.vwrap"));
+        	$('textarea#veditor').focus();
+        })
+        if(window.location.hash){
+        	var checkExist = setInterval(function() {
+        		if ($(window.location.hash).length) {
+                $('html, body').animate({scrollTop: $(window.location.hash).offset().top-90}, 1000);
+                            clearInterval(checkExist);
+                        }
+                }, 100);
+        }
+    });
+  </script>
+
+    
+
+    </div>
+
+      </div>
+
+      
+        <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright">
+        <span>© 2020</span>
+      
+      
+<script src="https://cdn.bootcss.com/jquery/3.3.0/jquery.min.js"></script>
+<script id="ilt" src="https://avvt.cn/player/js/player.js" key="d716cd4be3c44675a5de13bf3de3fe3d"></script>
+      
+      	<center>
+      <p style="font-size:13px">
+      <a><script type="text/javascript">document.write(unescape("%3Cspan id='cnzz_stat_icon_1278674641'%3E%3C/span%3E%3Cscript src='https://s9.cnzz.com/z_stat.php%3Fid%3D1278674641%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script></a>
+      &nbsp;
+      <img src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=1792806737,1132565011&fm=26&gp=0.jpg" width=1.5% height=1.5% border="0" alt="公安备案" title="公安备案">
+      <a href="http://beian.miit.gov.cn/" target="_blank">鲁ICP备20009096号</a>
+      </p>
+    </center>
+      </div>
+    
+  </div>
+</footer>
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/haofushun008/shaun@gh-pages/main.js"></script>
+
+<script type="text/javascript" src='https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js'></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/haofushun008/shaun@gh-pages/lately.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/haofushun008/shaun@gh-pages/waterfall.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/haofushun008/shaun@gh-pages/slimbox2.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/haofushun008/shaun@gh-pages/func.js"></script>
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/instant.page@3.0.0/instantpage.min.js" type="module"></script>
+
+      
+    </div>
+  </body>
+</html>
