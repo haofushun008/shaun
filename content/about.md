@@ -24,7 +24,7 @@ Hugo：<https://gohugo.io/>
 - 全平台发图「PicGo」：<https://github.com/Molunerfinn/PicGo>
 - Chrome 新标签扩展「几枝」
 
-### 欢迎打赏
+### 微信
 
 <figure>
     <img src="https://s1.ax1x.com/2020/03/25/8vPJbQ.jpg" alt="微信" />
