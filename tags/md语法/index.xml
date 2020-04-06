@@ -17,7 +17,9 @@
       <pubDate>Sun, 29 Mar 2020 00:00:00 +0000</pubDate>
       
       <guid>https://thedoctor.top/shaun/math/</guid>
-      <description>因为要使用markdown编辑数学公式然后在文档、网页中使用，但是自己总是记不住这么多东西，特别是几天不用，很多都忘记了，因此准备就数学公式的Latex编辑方式做一个整理，以方便自己和读者今后使用。</description>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;因为要使用markdown编辑数学公式然后在文档、网页中使用，但是自己总是记不住这么多东西，特别是几天不用，很多都忘记了，因此准备就数学公式的Latex编辑方式做一个整理，以方便自己和读者今后使用。&lt;/p&gt;
+&lt;/blockquote&gt;</description>
     </item>
     
   </channel>

@@ -17,7 +17,7 @@
       <pubDate>Mon, 06 Apr 2020 00:00:00 +0000</pubDate>
       
       <guid>https://thedoctor.top/shaun/nut/</guid>
-      <description>1.用网页版的坚果云分享文件，复制分享链接 2.编辑博客，粘贴源码 &amp;lt;div style=&amp;#34;width:100%;height:700px;overflow:hidden;border:0px&amp;#34;&amp;gt; &amp;lt;div style=&amp;#34;width:100%;height:700px;margin:-50px 0px 0px 0px;&amp;#34;&amp;gt; &amp;lt;iframe src=&amp;#34;你的坚果云分享链接#dir=%2F::mode=1&amp;#34; style=&amp;#34;width: 100%;margin: 0;padding: 0;border: 0;height:700px;&amp;#34; scrolling=&amp;#34;no&amp;#34;&amp;gt; &amp;lt;/iframe&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt; 3. &amp;raquo;效果&amp;laquo; 4.more：坚果云备份小文件真的很丝滑！</description>
+      <description></description>
     </item>
     
     <item>
@@ -35,7 +35,9 @@
       <pubDate>Sun, 29 Mar 2020 00:00:00 +0000</pubDate>
       
       <guid>https://thedoctor.top/shaun/math/</guid>
-      <description>因为要使用markdown编辑数学公式然后在文档、网页中使用，但是自己总是记不住这么多东西，特别是几天不用，很多都忘记了，因此准备就数学公式的Latex编辑方式做一个整理，以方便自己和读者今后使用。</description>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;因为要使用markdown编辑数学公式然后在文档、网页中使用，但是自己总是记不住这么多东西，特别是几天不用，很多都忘记了，因此准备就数学公式的Latex编辑方式做一个整理，以方便自己和读者今后使用。&lt;/p&gt;
+&lt;/blockquote&gt;</description>
     </item>
     
     <item>
