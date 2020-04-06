@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>网页 on 郝先森的笔记</title>
+    <link>https://thedoctor.top/shaun/tags/%E7%BD%91%E9%A1%B5/</link>
+    <description>Recent content in 网页 on 郝先森的笔记</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Mon, 06 Apr 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://thedoctor.top/shaun/tags/%E7%BD%91%E9%A1%B5/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>给博客添加坚果云共享文件</title>
+      <link>https://thedoctor.top/shaun/nut/</link>
+      <pubDate>Mon, 06 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://thedoctor.top/shaun/nut/</guid>
+      <description>1.用网页版的坚果云分享文件，复制分享链接 2.编辑博客，粘贴源码 &amp;lt;div style=&amp;#34;width:100%;height:700px;overflow:hidden;border:0px&amp;#34;&amp;gt; &amp;lt;div style=&amp;#34;width:100%;height:700px;margin:-50px 0px 0px 0px;&amp;#34;&amp;gt; &amp;lt;iframe src=&amp;#34;你的坚果云分享链接#dir=%2F::mode=1&amp;#34; style=&amp;#34;width: 100%;margin: 0;padding: 0;border: 0;height:700px;&amp;#34; scrolling=&amp;#34;no&amp;#34;&amp;gt; &amp;lt;/iframe&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt; 3. &amp;raquo;效果&amp;laquo; 4.more：坚果云备份小文件真的很丝滑！</description>
+    </item>
+    
+  </channel>
+</rss>
