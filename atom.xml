@@ -7,7 +7,7 @@
             <link href="https://thedoctor.top/shaun/atom.xml" rel="self" type="application/rss+xml" title="atom" />
             <link href="https://thedoctor.top/shaun/" rel="alternate" type="text/html" title="HTML" />
             <link href="https://thedoctor.top/shaun/index.json" rel="alternate" type="application/json" title="JSON" />
-    <updated>2020-04-06T02:26:19+00:00</updated>
+    <updated>2020-04-06T02:41:30+00:00</updated>
     
     
     
@@ -27,7 +27,10 @@
             <updated>2020-04-06T00:00:00+00:00</updated>
             
             
-            <content type="html"><![CDATA[<p><strong>1.用网页版的坚果云分享文件，复制分享链接</strong></p>
+            <content type="html"><![CDATA[<p><p class="md_image">
+  <img loading='lazy' src="https://pic.thedoctor.top/pic/20200406MRPMZc.png" alt="20200406MRPMZc"  />
+</p></p>
+<p><strong>1.用网页版的坚果云分享文件，复制分享链接</strong></p>
 <p><strong>2.编辑博客，粘贴源码</strong></p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">&lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">style</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;width:100%;height:700px;overflow:hidden;border:0px&#34;</span>&gt;
 &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">style</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;width:100%;height:700px;margin:-50px 0px 0px 0px;&#34;</span>&gt;
@@ -412,8 +415,7 @@
 <h5 id="105-小结">10.5 小结</h5>
 <blockquote>
 <p>目前来说深度学习是一门学科还是有些站不住脚，因为还没有可以解释深度学习本质的理论框架，这也是深度学习被诟病为炼金术的原因。</p>
-</blockquote>
-]]></content>
+</blockquote>]]></content>
             
                  
                     
