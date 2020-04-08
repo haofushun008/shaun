@@ -7,7 +7,7 @@
             <link href="https://thedoctor.top/shaun/atom.xml" rel="self" type="application/rss+xml" title="atom" />
             <link href="https://thedoctor.top/shaun/" rel="alternate" type="text/html" title="HTML" />
             <link href="https://thedoctor.top/shaun/index.json" rel="alternate" type="application/json" title="JSON" />
-    <updated>2020-04-08T06:28:05+00:00</updated>
+    <updated>2020-04-08T06:33:08+00:00</updated>
     
     
     
@@ -19,9 +19,7 @@
             <title type="html"><![CDATA[疫情HTML源码]]></title>
             <link href="https://thedoctor.top/shaun/yiqing/" rel="alternate" type="text/html" />
             
-                <link href="https://thedoctor.top/shaun/hello-hugo/" rel="related" type="text/html" title="Hello Hugo" />
-                <link href="https://thedoctor.top/shaun/rsshub-docker/" rel="related" type="text/html" title="RSSHub 部署笔记" />
-                <link href="https://thedoctor.top/shaun/telegram-linmumu/" rel="related" type="text/html" title="Telegram 使用小记" />
+                <link href="https://thedoctor.top/shaun/nut/" rel="related" type="text/html" title="给博客添加坚果云共享文件" />
             
                 <id>https://thedoctor.top/shaun/yiqing/</id>
             
@@ -33,7 +31,7 @@
             <content type="html"><![CDATA[<p>最新看到很多人发布疫情实时图html源码，根本不需要发布，也不存在含金量的（大神勿喷！）。</p>
 <p>看到某站上面，还有很多店家用来卖30块钱（坑）。</p>
 <center><img src="https://pic.thedoctor.top/pic/20200408C1FtLa.png"></center>
-<p>网上流传的代码，就是一个纯粹单独的iframe框架而已，没有任何技术和含金量可言。</p>
+网上流传的代码，就是一个纯粹单独的iframe框架而已，没有任何技术和含金量可言。
 <p>直接贴出代码：</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html"><span style="color:#75715e">&lt;!DOCTYPE html&gt;</span>
 &lt;<span style="color:#f92672">html</span> <span style="color:#a6e22e">lang</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;zh&#34;</span>&gt;
@@ -52,10 +50,13 @@
 &lt;/<span style="color:#f92672">html</span>&gt;
 </code></pre></div><p><strong><a href="https://www.youyacao.com/yiqing/">https://www.youyacao.com/yiqing/</a></strong></p>
 <p>上面这个链接 换成丁香 就是丁香的页面</p>
+<blockquote>
 <p>丁香的页面：https://3g.dxy.cn/newh5/view/pneumonia</p>
 <p>网易的页面：http://news.163.com/special/epidemic/</p>
+</blockquote>
 <p>简单说，你把任何 一个网址放进去都可以加载出他页面的内容，这就是iframe。</p>
-<p>overflow:hidden;margin: 0; border: none; 这里的意思 就是超出的部分 隐藏掉，边框没有，不显示边框。</p>]]></content>
+<p>overflow:hidden;margin: 0; border: none; 这里的意思是超出的部分隐藏掉，不显示边框。</p>
+<p><strong>&raquo;&gt;<a href="https://thedoctor.top/happylife/post/zhong-guo-jia-you/">效果</a>&laquo;&lt;</strong></p>]]></content>
             
                  
                     
@@ -65,7 +66,7 @@
                         
                             
                              
-                                <category scheme="https://thedoctor.top/shaun/tags/%E6%8A%98%E8%85%BE" term="%E6%8A%98%E8%85%BE" label="折腾" />
+                                <category scheme="https://thedoctor.top/shaun/tags/%E7%BD%91%E9%A1%B5" term="%E7%BD%91%E9%A1%B5" label="网页" />
                             
                         
                     
