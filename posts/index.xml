@@ -6,10 +6,20 @@
     <description>Recent content in Posts on 郝先森的笔记</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 06 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 08 Apr 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://thedoctor.top/shaun/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>疫情HTML源码</title>
+      <link>https://thedoctor.top/shaun/yiqing/</link>
+      <pubDate>Wed, 08 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://thedoctor.top/shaun/yiqing/</guid>
+      <description>&lt;p&gt;最新看到很多人发布疫情实时图html源码，根本不需要发布，也不存在含金量的（大神勿喷！）。&lt;/p&gt;
+&lt;p&gt;看到某站上面，还有很多店家用来卖30块钱（坑）。&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>给博客添加坚果云共享文件</title>
@@ -50,15 +60,6 @@
       <guid>https://thedoctor.top/shaun/hello-hugo/</guid>
       <description>&lt;p&gt;哈喽，🐯🐶！（开机声～）&lt;/p&gt;
 &lt;p&gt;主站顺利切换到 &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>RSSHub 部署笔记</title>
-      <link>https://thedoctor.top/shaun/rsshub-docker/</link>
-      <pubDate>Sat, 21 Mar 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://thedoctor.top/shaun/rsshub-docker/</guid>
-      <description>🍰 万物皆可 RSS。 内容来源：https://docs.rsshub.app/install/#an-zhuang-2配合 chrome 扩展更方便：RSSHub Radar ，自定义域名，随时查询规则！ 再配合 《电报 Flowerss Bot》，开启私属 rss 聚合机器人！</description>
     </item>
     
   </channel>

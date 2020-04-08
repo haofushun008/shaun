@@ -7,12 +7,71 @@
             <link href="https://thedoctor.top/shaun/atom.xml" rel="self" type="application/rss+xml" title="atom" />
             <link href="https://thedoctor.top/shaun/" rel="alternate" type="text/html" title="HTML" />
             <link href="https://thedoctor.top/shaun/index.json" rel="alternate" type="application/json" title="JSON" />
-    <updated>2020-04-06T02:43:47+00:00</updated>
+    <updated>2020-04-08T06:28:05+00:00</updated>
     
     
     
     
         <id>https://thedoctor.top/shaun/atom.xml</id>
+    
+        
+        <entry>
+            <title type="html"><![CDATA[疫情HTML源码]]></title>
+            <link href="https://thedoctor.top/shaun/yiqing/" rel="alternate" type="text/html" />
+            
+                <link href="https://thedoctor.top/shaun/hello-hugo/" rel="related" type="text/html" title="Hello Hugo" />
+                <link href="https://thedoctor.top/shaun/rsshub-docker/" rel="related" type="text/html" title="RSSHub 部署笔记" />
+                <link href="https://thedoctor.top/shaun/telegram-linmumu/" rel="related" type="text/html" title="Telegram 使用小记" />
+            
+                <id>https://thedoctor.top/shaun/yiqing/</id>
+            
+            
+            <published>2020-04-08T00:00:00+00:00</published>
+            <updated>2020-04-08T00:00:00+00:00</updated>
+            
+            
+            <content type="html"><![CDATA[<p>最新看到很多人发布疫情实时图html源码，根本不需要发布，也不存在含金量的（大神勿喷！）。</p>
+<p>看到某站上面，还有很多店家用来卖30块钱（坑）。</p>
+<center><img src="https://pic.thedoctor.top/pic/20200408C1FtLa.png"></center>
+<p>网上流传的代码，就是一个纯粹单独的iframe框架而已，没有任何技术和含金量可言。</p>
+<p>直接贴出代码：</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html"><span style="color:#75715e">&lt;!DOCTYPE html&gt;</span>
+&lt;<span style="color:#f92672">html</span> <span style="color:#a6e22e">lang</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;zh&#34;</span>&gt;
+&lt;<span style="color:#f92672">head</span>&gt;
+    &lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">charset</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;UTF-8&#34;</span>&gt;
+    &lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">name</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;viewport&#34;</span> <span style="color:#a6e22e">content</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;width=device-width, initial-scale=1.0&#34;</span>&gt;
+    &lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">http-equiv</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;X-UA-Compatible&#34;</span> <span style="color:#a6e22e">content</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;ie=edge&#34;</span>&gt;
+    &lt;<span style="color:#f92672">title</span>&gt;全国新型冠状病毒实时分布图-信息来自国家及各省市地区卫健委&lt;/<span style="color:#f92672">title</span>&gt;
+    &lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">name</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;keywords&#34;</span> <span style="color:#a6e22e">content</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;全国新型冠状病毒实时分布图,实时疫情,武汉管控,新型冠状病毒,肺炎&#34;</span> /&gt;
+    &lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">name</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;description&#34;</span> <span style="color:#a6e22e">content</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;成都市一颗优雅草科技有限公司全国新型冠状病毒肺炎病毒实时分布图，及时播报疫情最新进展！&#34;</span> /&gt;
+&lt;/<span style="color:#f92672">head</span>&gt;
+&lt;<span style="color:#f92672">body</span> <span style="color:#a6e22e">style</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;height: 100vh;margin: 0;padding: 0;overflow: hidden;&#34;</span>&gt;
+    &lt;<span style="color:#f92672">iframe</span> <span style="color:#a6e22e">id</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;iframe&#34;</span> <span style="color:#a6e22e">src</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;https://www.youyacao.com/yiqing/&#34;</span> <span style="color:#a6e22e">frameborder</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;0&#34;</span> <span style="color:#a6e22e">width</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;100%&#34;</span> <span style="color:#a6e22e">height</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;100%&#34;</span>
+        <span style="color:#a6e22e">allowtransparency</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;yes&#34;</span> <span style="color:#a6e22e">style</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;overflow:hidden;margin: 0; border: none;&#34;</span>&gt;&lt;/<span style="color:#f92672">iframe</span>&gt;  
+&lt;/<span style="color:#f92672">body</span>&gt;
+&lt;/<span style="color:#f92672">html</span>&gt;
+</code></pre></div><p><strong><a href="https://www.youyacao.com/yiqing/">https://www.youyacao.com/yiqing/</a></strong></p>
+<p>上面这个链接 换成丁香 就是丁香的页面</p>
+<p>丁香的页面：https://3g.dxy.cn/newh5/view/pneumonia</p>
+<p>网易的页面：http://news.163.com/special/epidemic/</p>
+<p>简单说，你把任何 一个网址放进去都可以加载出他页面的内容，这就是iframe。</p>
+<p>overflow:hidden;margin: 0; border: none; 这里的意思 就是超出的部分 隐藏掉，边框没有，不显示边框。</p>]]></content>
+            
+                 
+                    
+                 
+                    
+                         
+                        
+                            
+                             
+                                <category scheme="https://thedoctor.top/shaun/tags/%E6%8A%98%E8%85%BE" term="%E6%8A%98%E8%85%BE" label="折腾" />
+                            
+                        
+                    
+                
+            
+        </entry>
     
         
         <entry>
@@ -544,44 +603,6 @@
 </code></pre></div><h4 id="添加豆瓣页面">添加豆瓣页面</h4>
 <p>新建模板 <a href="https://github.com/lmm214/immmmm/blob/master/themes/hello-friend/layouts/_default/books.html">layouts/_default/books.html</a> 、<a href="https://github.com/lmm214/immmmm/blob/master/themes/hello-friend/layouts/_default/movies.html">layouts/_default/movies.html</a> 页面模板，自行修改 <code>secret</code>。</p>
 <p>新建文章 <a href="https://github.com/lmm214/immmmm/blob/master/content/books.md">content/books.md</a>、<a href="https://github.com/lmm214/immmmm/blob/master/content/movies.md">content/movies.md</a> ，当访问 <code>域名/books/</code> 时 Hugo 会匹配 <code>books.html</code> 进行渲染。</p>]]></content>
-            
-                 
-                    
-                 
-                    
-                         
-                        
-                            
-                             
-                                <category scheme="https://thedoctor.top/shaun/tags/%E6%8A%98%E8%85%BE" term="%E6%8A%98%E8%85%BE" label="折腾" />
-                            
-                        
-                    
-                
-            
-        </entry>
-    
-        
-        <entry>
-            <title type="html"><![CDATA[RSSHub 部署笔记]]></title>
-            <link href="https://thedoctor.top/shaun/rsshub-docker/" rel="alternate" type="text/html" />
-            
-                <link href="https://thedoctor.top/shaun/hello-hugo/" rel="related" type="text/html" title="Hello Hugo" />
-                <link href="https://thedoctor.top/shaun/telegram-linmumu/" rel="related" type="text/html" title="Telegram 使用小记" />
-            
-                <id>https://thedoctor.top/shaun/rsshub-docker/</id>
-            
-            
-            <published>2020-03-21T00:00:00+00:00</published>
-            <updated>2020-03-21T00:00:00+00:00</updated>
-            
-            
-            <content type="html"><![CDATA[<blockquote>
-<p>🍰 万物皆可 RSS。</p>
-</blockquote>
-<p>内容来源：<a href="https://docs.rsshub.app/install/#an-zhuang-2">https://docs.rsshub.app/install/#an-zhuang-2</a>配合 chrome 扩展更方便：<a href="https://chrome.google.com/webstore/detail/rsshub-radar/kefjpfngnndepjbopdmoebkipbgkggaa">RSSHub Radar</a> ，自定义域名，随时查询规则！</p>
-<p>再配合 <a href="https://immmmm.com/telegram-flowerss-bot/">《电报 Flowerss Bot》</a>，开启私属 rss 聚合机器人！</p>
-]]></content>
             
                  
                     
